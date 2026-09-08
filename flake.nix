@@ -6,6 +6,6 @@
   outputs = inputs: {
     packages = builtins.mapAttrs (_: pkgs: import ./. { inherit pkgs; }) inputs.nixpkgs.legacyPackages;
 
-    overlays.default = final: prev: import ./. { inherit prev; };
+    overlays.default = final: prev: import ./. { pkgs = prev; };
   };
 }
