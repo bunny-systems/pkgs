@@ -181,6 +181,6 @@ stdenvNoCC.mkDerivation {
   meta = with lib; {
     description = "Bunnyfetch, a custom fastfetch configuration";
     license = licenses.mit;
-    platforms = platforms.linux;
+    platforms = platforms.unix;
   };
 }
