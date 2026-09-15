@@ -9,6 +9,7 @@ In order to use bunnypkgs, you can run the following command (requires flakes):
 ```sh
 nix run github:bunny-systems/pkgs#bunnyfetch
 ```
+Feel free to substitute `bunnyfetch` with whatever package desired.
 
 Alternatively, you can add bunnypkgs as a flake input to your nix config:
 
