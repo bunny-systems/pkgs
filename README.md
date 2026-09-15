@@ -1,17 +1,17 @@
 # bunnypkgs
 
-a curated set of packages made by an indulgent circle of Nix/NixOS users. This repository mainly serves as an experimental ground for learning, as well as packaging stuff we find useful/cool that has not yet made its way to `nixpkgs`.
+A curated set of packages made by an indulgent circle of Nix/NixOS users. This repository mainly serves as an experimental ground for learning, as well as packaging stuff we find useful/cool that has not yet made its way to `nixpkgs`.
 
 ## Usage
 
-In order to use bunnypkgs, you can run the following command (requires flakes):
+Try out `bunnyfetch` in bunnypkgs by running following command (requires flakes):
 
 ```sh
 nix run github:bunny-systems/pkgs#bunnyfetch
 ```
 Feel free to substitute `bunnyfetch` with whatever package desired.
 
-Alternatively, you can add bunnypkgs as a flake input to your nix config:
+Alternatively, you can add bunnypkgs as a flake input to your nix config's `flake.nix`:
 
 ```nix
 {
